@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "form image";
+}
+.header {
+  grid-area: header;
+  background-color: green;
+  height: 9.75vh;
+}
+.columns{
+    height: 90.25vh;
+}
+.form-container {
+  grid-area: form;
+  background-color: blue;
+  width:49vw;
+  
+}
+.image-container {
+  grid-area: image;
+  background-color: red;
+  width: 51vw;
+}
