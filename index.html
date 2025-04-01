@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 01</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Olá, mundo!
+    <header>Agência Batatinha</header>
+    <main>
+        <div class="form-container">
+            <h1>Entre com seu email e senha</h1>
+            <form>
+                <input type="email" placeholder="Email">
+                <!-- talvez seja melhor colocar o campo do tipo text para evitar checagens padrão do navegdaor-->
+                 <br>
+                <input type="password" placeholder="Senha">
+                <p class="login-message">Mensagem</p>
+                <button type="submit">Entrar</button>
+            </form>
+            <hr>
+            <p>Não possui uma conta? <a href="#">Criar</a></p>
+            <!-- Esse link que existe em criar tem que levar para a página de cadastro -->
+        </div>
+        <div class="image-container">
+            <!-- Essa div image-container tem que ter a imagem como plano de fundo -->
+            <p>Bem-vindo à agência Batatinha</p>
+        </div>
+    </main>
 </body>
 </html>
