@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
-    <header class="header"><h2>Agência Batatinha</h2></header>
+    <header class="header"><img class="header-image" src="logo.svg"><h2 class="company-name">Agência Batatinha</h2></header>
     <div class="form-container columns">
       <div class="form section shaded-sections">
         <div class="form-content">
-          <h1>Entre com seu email e senha</h1>
+          <h1 class="form-title">Entre com seu email e senha</h1>
           <form>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" class="button-and-inputs inputs" />
             <!-- talvez seja melhor colocar o campo do tipo text para evitar checagens padrão do navegador-->
             <br />
-            <input type="password" placeholder="Senha" />
-            <p class="login-message">Mensagem</p>
-            <button type="submit">Entrar</button>
+            <input type="password" placeholder="Senha" class="button-and-inputs inputs" />
+            <p class="form-message">Mensagem</p>
+            <button href="" type="submit" class="button-and-inputs btn">Entrar</button>
           </form>
-          <hr />
-          <p>Não possui uma conta? <a href="#">Criar</a></p>
+          <hr class="horizontal-rule" />
+          <p class="final-text">Não possui uma conta? <a href="#" class="link">Criar</a></p>
           <!-- Esse link que existe em criar tem que levar para a página de cadastro -->
         </div>
         </div>
@@ -32,9 +32,9 @@
       <div class="section vertical-line"></div>
     </div>
     <div class="image-container columns">
-      <div class="section shaded-sections">
+      <div class="section shaded-sections img-filled">
         <!-- Essa div image-container tem que ter a imagem como plano de fundo -->
-        <p>Bem-vindo à agência Batatinha</p>
+        <p class="image-text">Bem-vindo à agência Batatinha</p>
       </div>
     </div>
   </body>
