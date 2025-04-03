@@ -82,7 +82,7 @@ body {
 }
 
 .img-filled {
-  background-image: url("initial-image.png");
+  background-image: url("../assets/img/initial-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
