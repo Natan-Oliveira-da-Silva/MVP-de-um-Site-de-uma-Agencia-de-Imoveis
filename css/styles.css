@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   /* COLORS */
   --primary: #fe8100;
@@ -15,11 +15,6 @@
   --black-1000: #000000;
   --red: #e70000;
   --green: #00e749;
-
-  /* FONT SIZES */
-
-
-  /* FONT WEIGHTS */
 }
 * {
   margin: 0;
@@ -28,7 +23,7 @@
 }
 
 body {
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--white-100);
   display: grid;
   grid-template-areas:
@@ -81,7 +76,11 @@ body {
 .form-content {
   padding: 14% 12% 15.4% 12%;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
+
 .img-filled {
   background-image: url("initial-image.png");
   background-size: cover;
@@ -92,15 +91,25 @@ body {
   padding-top: 12%;
   margin-left: 5%;
   color: var(--white-400);
+  font-size: 40px;
+  font-weight: 400;
 }
 .final-text {
-  text-align: center;
   color: var(--black-1000);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 .button-and-inputs {
   width: 100%;
   border-radius: 50em;
   padding: 1em;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 1.3em;
+  margin-left: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .link {
   text-decoration: none;
@@ -110,6 +119,7 @@ body {
   color: var(--white-100);
   background-color: var(--primary);
   border: none;
+  border-top: 0;
 }
 .horizontal-rule {
   border: none;
@@ -118,9 +128,14 @@ body {
 }
 .company-name {
   color: var(--white-100);
+  font-size: 24px;
+  font-weight: 700;
 }
 .form-message {
   color: var(--red);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1.3em;
 }
 .inputs {
   background-color: var(--white-300);
@@ -128,5 +143,7 @@ body {
   color: var(--gray);
 }
 .form-title {
+  font-size: 32px;
+  font-weight: 700;
   color: var(--black-400);
 }
