@@ -54,25 +54,36 @@ body {
   margin-left:12.7vw;
   margin-top:9.8vh;
 }
+
+
+
+
+
 .our-services{
   background-color: var(--white-100);
   height: 43vh;
   padding: 7vh 12.6vw 0vh 12.6vw;
+  background-color:red;
 }
 .our-services-options{
-  width:50%;
   display: flex;
   justify-content: space-between;
 }
 .our-services-options img{
-  height: 246px;
-  width:246px;
+  height: 125px;
+  width:125px;
   border-radius: 100%;
   object-fit:cover;
 }
 .our-services-options h3,p{
   text-align: center;
 }
+
+
+
+
+
+
 .best-oportunities-options{
   display: flex;
   overflow: hidden;     /* corta tudo que passar */
