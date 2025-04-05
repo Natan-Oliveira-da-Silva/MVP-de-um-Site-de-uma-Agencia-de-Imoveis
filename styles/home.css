@@ -115,10 +115,15 @@ body {
 
 
 
+
+
+
 .footer {
   grid-area: footer;
   background-color: var(--secondary);
   height: 24.8vh;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  align-items:end;
+  padding: 0vh 12.6vw 4.5vh 12.6vw;
 }
