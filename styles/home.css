@@ -142,6 +142,11 @@ body {
   justify-content: space-between;
   margin-bottom: 22px;
 }
+.best-oportunities-option {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
 .best-oportunities-options img {
   display: flex;
   width: 185px;
@@ -151,7 +156,6 @@ body {
 }
 .bedrooms-and-bathrooms {
   display: flex;
-  justify-content: space-between;
 }
 
 .footer {
@@ -215,11 +219,9 @@ body {
   text-align: right;
 }
 .fechar {
-
   display: block;
 }
 .modal-infos-and-buttons {
-
   display: flex;
   justify-content: space-between;
 }
@@ -228,4 +230,55 @@ body {
   color: var(--black-400);
   font-size: 36px;
   font-weight: 400;
+}
+.option-price{
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black-400);
+}
+.option-area{
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--gray);
+}
+.bedrooms-and-bathrooms p{
+  padding: 0.3em 0.6em;
+  background-color: var(--primary);
+  border-radius: 6px;
+  color: var(--white-100);
+  font-weight: 400;
+  font-size: 10px;
+  margin-right:2em;
+}
+.contact h4{
+  color: var(--primary);
+  font-size: 18px;
+}
+.contact p{
+  color:var(--white-400);
+}
+.contact i{
+  color: var(--gray);
+}
+.up div{
+  background-color: var(--white-400);
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frase p{
+  color: var(--white-400);
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16vh;
+}
+
+.social-media-icons i{
+  margin-right: 1em;
 }
