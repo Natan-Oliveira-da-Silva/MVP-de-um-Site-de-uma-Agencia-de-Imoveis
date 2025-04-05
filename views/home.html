@@ -12,9 +12,15 @@
     <link rel="stylesheet" href="../styles/home.css" type="text/css" />
   </head>
   <body>
-    <header class="header">
-      <img class="header-image" src="../assets/icons/logo.svg" />
-      <h2 class="company-name">Agência Batatinha</h2>
+    <header id="header" class="header">
+      <div>
+        <img class="header-image" src="../assets/icons/logo.svg" />
+        <h2 class="company-name">Agência Batatinha</h2>
+      </div>
+      <div>
+        <a href="#">Contato</a>
+        <a href="#">Sair</a>
+      </div>
     </header>
     <section class="banner">
       <div class="banner-text">
@@ -22,9 +28,8 @@
       </div>
     </section>
 
-    <!-- OUR SERVICES -->
     <section class="our-services">
-      <h2>Nossos Serviços</h2>
+      <h2 class="session-title">Nossos Serviços</h2>
       <div class="our-services-options">
         <div class="our-services-option">
           <img
@@ -53,11 +58,8 @@
       </div>
     </section>
 
-    <!-- FINAL -->
-
-    <!-- BEST OPPORTUNITIES -->
     <section class="best-oportunities">
-      <h2>Melhores Oportunidades</h2>
+      <h2 class="session-title">Melhores Oportunidades</h2>
       <div class="best-oportunities-options" style="background-color: yellow">
         <div class="best-oportunities-option">
           <img
@@ -146,8 +148,6 @@
       </div>
     </section>
 
-    <!-- FINAL -->
-
     <footer class="footer">
       <div class="contact">
         <h4>Contato</h4>
@@ -161,12 +161,37 @@
         </div>
       </div>
       <div class="frase">
-        <p>Feito com &#10084; por Fulando de tal - Todos os Direitos Reservados</p>
+        <p>
+          Feito com &#10084; por Fulando de tal - Todos os Direitos Reservados
+        </p>
       </div>
       <div class="up">
-        <p>^</p>
+        <a href="#header">^</a>
       </div>
     </footer>
-    
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+      <div class="modal-conteudo">
+        
+          <span class="fechar" id="fecharModal">&times;</span>
+        
+        <div class="modal-image">
+          <img
+          src="../assets/img/home-page/best-oportunities/option6.png"
+          alt="Erro ao carregar a imagem do imóvel"
+        />
+        </div>
+        <div class="modal-price">
+          <p>R$ 2.200.00</p>
+        </div>
+        <div class="modal-infos-and-buttons">
+          <p>5 quartos</p>
+          <p>5 banheiros</p>
+          <p>232 m²</p>
+          <a href="#">Comprar</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
