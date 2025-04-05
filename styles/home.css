@@ -75,7 +75,7 @@ body {
   border-radius: 100%;
   object-fit:cover;
 }
-.our-services-options h3,p{
+.our-services-options h3, .our-services-options p{
   text-align: center;
 }
 
@@ -84,21 +84,41 @@ body {
 
 
 
-.best-oportunities-options{
-  display: flex;
-  overflow: hidden;     /* corta tudo que passar */
-  /* white-space: nowrap;  /* impede quebra de linha */
-  text-overflow: ellipsis;
-  width:100%;
-}
-.best-oportunities-options img{
-  display: flex;
-  width:292px;
-  height:197px;
-  object-fit:cover;
-  border-radius: 12px;
-}
+
+
 .best-oportunities{
   padding: 7vh 12.6vw 14.2vh 12.6vw;
   width: 100vw;
+  background-color: green;
+}
+.best-oportunities-options{
+  background-color:blue;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 22px;
+}
+.best-oportunities-options img{
+  display: flex;
+  width:185px;
+  height:124px;
+  object-fit:cover;
+  border-radius: 12px;
+}
+.bedrooms-and-bathrooms{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+.footer {
+  grid-area: footer;
+  background-color: var(--secondary);
+  height: 24.8vh;
+  display: flex;
+  align-items: center;
 }
