@@ -1,60 +1,68 @@
 {
     "opportunities": [
       {
+        "id":"0",
         "image": "../assets/img/home-page/best-oportunities/option1.png",
-        "price": "2.200.000",
-        "size":"120",
-        "bedrooms":"3",
-        "bathrooms":"2"
+        "price": "R$ 2.200.000",
+        "size":"120 m²",
+        "bedrooms":"3 quartos",
+        "bathrooms":"2 banheiros"
       },
       {
+        "id":"1",
         "image": "../assets/img/home-page/best-oportunities/option2.png",
-        "price": "3.470.000",
-        "size":"180",
-        "bedrooms":"6",
-        "bathrooms":"2"
+        "price": "R$ 3.470.000",
+        "size":"180 m²",
+        "bedrooms":"6 quartos",
+        "bathrooms":"2 banheiros"
       },
       {
+        "id":"2",
         "image": "../assets/img/home-page/best-oportunities/option3.png",
-        "price": "300.000",
-        "size":"80",
-        "bedrooms":"2",
-        "bathrooms":"1"
+        "price": "R$ 300.000",
+        "size":"80 m²",
+        "bedrooms":"2 quartos",
+        "bathrooms":"1 banheiro"
       },
       {
+        "id":"3",
         "image": "../assets/img/home-page/best-oportunities/option4.png",
-        "price": "1.850.000",
-        "size":"94",
-        "bedrooms":"3",
-        "bathrooms":"1"
+        "price": "R$ 1.850.000",
+        "size":"94 m²",
+        "bedrooms":"3 quartos",
+        "bathrooms":"1 banheiro"
       },
       {
+        "id":"4",
         "image": "../assets/img/home-page/best-oportunities/option5.png",
-        "price": "4.780.000",
-        "size":"320",
-        "bedrooms":"9",
-        "bathrooms":"11"
+        "price": "R$ 4.780.000",
+        "size":"320 m²",
+        "bedrooms":"9 quartos",
+        "bathrooms":"11 banheiros"
       },
       {
+        "id":"5",
         "image": "../assets/img/home-page/best-oportunities/option6.png",
-        "price": "200.000",
-        "size":"70",
-        "bedrooms":"1",
-        "bathrooms":"1"
+        "price": "R$ 200.000",
+        "size":"70 m²",
+        "bedrooms":"1 quarto",
+        "bathrooms":"1 banheiro"
       },
       {
+        "id":"6",
         "image": "../assets/img/home-page/best-oportunities/option7.png",
-        "price": "360.000",
-        "size":"80",
-        "bedrooms":"2",
-        "bathrooms":"1"
+        "price": "R$ 360.000",
+        "size":"80 m²",
+        "bedrooms":"2 quartos",
+        "bathrooms":"1 banheiro"
       },
       {
+        "id":"7",
         "image": "../assets/img/home-page/best-oportunities/option8.png",
-        "price": "690.000",
-        "size":"85",
-        "bedrooms":"2",
-        "bathrooms":"3"
+        "price": "R$ 690.000",
+        "size":"85 m²",
+        "bedrooms":"2 quartos",
+        "bathrooms":"3 banheiros"
       }
     ]
   }
