@@ -1,0 +1,60 @@
+{
+    "opportunities": [
+      {
+        "image": "../assets/img/home-page/best-oportunities/option1.png",
+        "price": "2.200.000",
+        "size":"120",
+        "bedrooms":"3",
+        "bathrooms":"2"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option2.png",
+        "price": "3.470.000",
+        "size":"180",
+        "bedrooms":"6",
+        "bathrooms":"2"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option3.png",
+        "price": "300.000",
+        "size":"80",
+        "bedrooms":"2",
+        "bathrooms":"1"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option4.png",
+        "price": "1.850.000",
+        "size":"94",
+        "bedrooms":"3",
+        "bathrooms":"1"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option5.png",
+        "price": "4.780.000",
+        "size":"320",
+        "bedrooms":"9",
+        "bathrooms":"11"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option6.png",
+        "price": "200.000",
+        "size":"70",
+        "bedrooms":"1",
+        "bathrooms":"1"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option7.png",
+        "price": "360.000",
+        "size":"80",
+        "bedrooms":"2",
+        "bathrooms":"1"
+      },
+      {
+        "image": "../assets/img/home-page/best-oportunities/option8.png",
+        "price": "690.000",
+        "size":"85",
+        "bedrooms":"2",
+        "bathrooms":"3"
+      }
+    ]
+  }
