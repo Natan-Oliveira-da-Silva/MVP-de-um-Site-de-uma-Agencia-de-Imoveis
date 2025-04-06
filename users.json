@@ -2,27 +2,27 @@
     "users": [
       {
         "email": "ana@email.com",
-        "senha": "ana123"
+        "password": "ana12345"
       },
       {
         "email": "lucas@email.com",
-        "senha": "lucas123"
+        "password": "lucas123"
       },
       {
         "email": "joao@email.com",
-        "senha": "joao123"
+        "password": "joao1234"
       },
       {
         "email": "natan@email.com",
-        "senha": "natan123"
+        "password": "natan123"
       },
       {
         "email": "marcos@email.com",
-        "senha": "marcos123"
+        "password": "marcos123"
       },
       {
         "email": "bianca@email.com",
-        "senha": "bianca123"
+        "password": "bianca123"
       }
     ]
   }

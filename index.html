@@ -19,20 +19,22 @@
             <h1 class="form-title">Entre com seu email e senha</h1>
             <form>
               <input
-                type="email"
+              id="email-input"
+                type="text"
                 placeholder="Email"
                 class="button-and-inputs inputs"
               />
               <!-- talvez seja melhor colocar o campo do tipo text para evitar checagens padrão do navegador-->
               <br />
               <input
+              id="password-input"
                 type="password"
                 placeholder="Senha"
                 class="button-and-inputs inputs"
               />
 
-              <p class="form-message">Todos os campos são obrigatórios</p>
-              <button href="" type="submit" class="button-and-inputs btn">
+              <p id="message-field" class="form-message"></p>
+              <button id="enter-button" href="" type="submit" class="button-and-inputs btn">
                 Entrar
               </button>
             </form>
@@ -59,5 +61,6 @@
         <p class="image-text">Bem-vindo à agência Batatinha</p>
       </div>
     </div>
+    <script src="scripts/login.js"></script>
   </body>
 </html>
