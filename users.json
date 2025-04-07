@@ -23,6 +23,10 @@
       {
         "email": "bianca@email.com",
         "password": "bianca123"
+      },
+      {
+        "email": "example@gmail.com",
+        "password": "batatinha123"
       }
     ]
   }

@@ -69,7 +69,7 @@ function openModal(id){
         modalBathrooms.innerHTML = obj.bathrooms
         })
       .catch((err) => {
-        modalPrice.innerHTML = "Ocorreu um erro as informações deste modal.";
+        modalPrice.innerHTML = "Ocorreu um erro ao carregasr as informações deste modal.";
       });
 
 
