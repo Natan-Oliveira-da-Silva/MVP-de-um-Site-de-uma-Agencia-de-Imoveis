@@ -9,7 +9,6 @@ registerButton.addEventListener("click", (e) => {
   const email = emailInput.value;
   const password = passwordInput.value;
   const confirmPassword = confirmPasswordInput.value;
-  console.log(email, password, confirmPassword);
   validateData(email, password,confirmPassword);
 });
 function validateData(email,password,confirmPassword){

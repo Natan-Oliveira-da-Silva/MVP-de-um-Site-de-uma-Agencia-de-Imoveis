@@ -56,7 +56,6 @@ modalButton.addEventListener('click',() => {
 })
 
 function openModal(id){
-    console.log(id)
     modal.style.display = "flex"
     
     fetch("../data.json")
