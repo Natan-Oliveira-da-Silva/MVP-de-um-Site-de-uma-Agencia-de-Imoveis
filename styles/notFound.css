@@ -2,6 +2,7 @@
 :root {
   /* COLORS */
   --primary: #fe8100;
+  --primary-hover: #dd6e00;
   --secondary: #1e1e1e;
   --white-100: #ffffff;
   --white-200: #fbfbfb;
@@ -133,4 +134,12 @@ body {
 .left-container-links a{
   text-decoration: none;
   color: var(--black-400);
+}
+.btn:hover{
+  background-color: var(--primary-hover);
+}
+.btn:active{
+  background-color: transparent;
+  color:var(--primary-hover);
+  border:2px solid var(--primary-hover);
 }

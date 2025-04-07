@@ -34,7 +34,8 @@ function authenticateData(email,password){
             for (let i = 0; i < users.length; i++) {
                 if(users[i].email === email && users[i].password === password){
                     isAuthenticated = true
-                    break
+                    confirmsAuthentication()
+                    return
                 }
             }
             if(isAuthenticated === false) showsMessage("E-mail ou senha inválidos.")

@@ -2,8 +2,10 @@
 :root {
   /* COLORS */
   --primary: #fe8100;
+  --primary-hover: #dd6e00;
   --secondary: #1e1e1e;
   --white-100: #ffffff;
+  --white-100-hover: #c7c7c7;
   --white-200: #fbfbfb;
   --white-300: #f2f2f4;
   --white-400: #e9ecf2;
@@ -245,6 +247,22 @@ body {
   text-decoration: none;
   border-radius: 0.5em;
 }
+.modal-buy-button:hover{
+  background-color: var(--primary-hover);
+}
+#exit-button:hover{
+  background-color: var(--primary-hover);
+}
+#exit-button:active{
+  background-color: transparent;
+  color:var(--primary-hover);
+  border:2px solid var(--primary-hover);
+}
+.modal-buy-button:active{
+  background-color: transparent;
+  color:var(--primary-hover);
+  border:2px solid var(--primary-hover);
+}
 .session-title{
   margin-bottom: 1em;
   color: var(--black-400);
@@ -298,7 +316,12 @@ body {
   justify-content: space-between;
   height: 16vh;
 }
-
+#contact-link:hover{
+  color: var(--white-100-hover);
+}
+#contact-link:active{
+  color: var(--gray);
+}
 .social-media-icons i{
   margin-right: 1em;
 }
