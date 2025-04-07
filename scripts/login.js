@@ -24,27 +24,27 @@ function validateData(email,password){
 
 function authenticateData(email,password){
     let isAuthenticated = false
-    fetch("../users.json")
-    .then((response)=> response.json())
-    .then((response)=>{
-        users=response.users
-        for (let i = 0; i < users.length; i++) {
-            if(users[i].email === email && users[i].password === password){
-                showsMessage("Dados ok",true)
-                isAuthenticated = true
-                setTimeout(() => {
-                    resetMessage()
-                    window.location.href = "/views/home.html";
-                  }, 3000);
-                break
+    if(localStorage.getItem(email) === password){
+        confirmsAuthentication()
+    }else{
+        fetch("../users.json")
+        .then((response)=> response.json())
+        .then((response)=>{
+            users=response.users
+            for (let i = 0; i < users.length; i++) {
+                if(users[i].email === email && users[i].password === password){
+                    isAuthenticated = true
+                    break
+                }
             }
-        }
-        if(isAuthenticated === false) showsMessage("E-mail ou senha inválidos.")
-    })
-    .catch((err)=>{
-        resetMessage()
-        alert("Erro ao autenticar usuário")
-    })
+            if(isAuthenticated === false) showsMessage("E-mail ou senha inválidos.")
+        })
+        .catch((err)=>{
+            resetMessage()
+            alert("Erro ao autenticar usuário")
+        })
+    }
+    
 }
 function showsMessage(message,isValid=false){
     if(isValid===true){
@@ -55,4 +55,12 @@ function showsMessage(message,isValid=false){
 function resetMessage(){
     messageField.style.color = "#e70000"
     messageField.innerHTML = ""
+}
+function confirmsAuthentication(){
+    showsMessage("Dados ok",true)       
+    setTimeout(() => {
+        resetMessage()
+        localStorage.setItem("logged", "true");
+        window.location.href = "/views/home.html";
+      }, 3000);
 }

@@ -1,3 +1,6 @@
+if (localStorage.getItem("logged") !== "true") window.location.href = "../index.html"
+
+const exitButton = document.getElementById("exit-button");
 const line1 = document.getElementById("line1");
 const line2 = document.getElementById("line2");
 const modal = document.getElementById("modal");
@@ -72,3 +75,7 @@ function openModal(id){
 
 
 }
+
+exitButton.addEventListener("click",()=>{
+  if(localStorage.getItem("logged") !== null) localStorage.setItem("logged", "false");
+})
