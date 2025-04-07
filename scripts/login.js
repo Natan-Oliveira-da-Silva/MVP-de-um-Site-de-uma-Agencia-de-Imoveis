@@ -1,12 +1,3 @@
-// exibir mensagem se o usuario deixar um campo em branco
-// campo de email so deve aceitar email
-// campo senha so dve aceitar senha de mais de 8 caracteres
-// se senha for invalida, exibir mensagem
-// Se o email for invalido , exibir mensagem
-// Fazer autenticação do usuário usando o users.json
-// se a autenticação for ok, exibir mensagem de ok
-// e redirecionar para a página de home
-
 const enterButton = document.getElementById("enter-button");
 const messageField = document.getElementById("message-field");
 
@@ -39,7 +30,6 @@ function authenticateData(email,password){
         users=response.users
         for (let i = 0; i < users.length; i++) {
             if(users[i].email === email && users[i].password === password){
-                //dados corretos
                 showsMessage("Dados ok",true)
                 isAuthenticated = true
                 setTimeout(() => {

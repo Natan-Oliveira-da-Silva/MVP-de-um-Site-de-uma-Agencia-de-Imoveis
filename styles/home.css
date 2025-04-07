@@ -302,3 +302,7 @@ body {
 .social-media-icons i{
   margin-right: 1em;
 }
+.social-media-icons a{
+  text-decoration: none;
+  color: var(--gray);
+}
