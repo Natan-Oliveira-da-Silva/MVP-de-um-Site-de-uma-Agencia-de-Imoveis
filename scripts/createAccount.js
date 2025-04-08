@@ -57,7 +57,7 @@ function registerUser(email,password){
         resetMessage()
         localStorage.setItem(email, password);
         window.location.href = "../index.html";
-    }, 3000);
+    }, 1500);
 }
 
 

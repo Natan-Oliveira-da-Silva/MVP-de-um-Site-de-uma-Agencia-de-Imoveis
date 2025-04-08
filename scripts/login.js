@@ -63,5 +63,5 @@ function confirmsAuthentication(){
         resetMessage()
         localStorage.setItem("logged", "true");
         window.location.href = "/views/home.html";
-      }, 3000);
+      }, 1500);
 }
