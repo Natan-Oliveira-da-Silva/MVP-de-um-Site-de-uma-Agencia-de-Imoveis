@@ -1,5 +1,5 @@
 # Informações Importantes:
-* Para entrar na aplicação pelo formulário de login, pode-se usar o e-mail example@gmail.com e a senha batatinha123.
+* Para entrar na aplicação pelo formulário de login, pode-se usar o e-mail example@gmail.com e a senha batatinha123 ou qualquer outro conjunto de credenciais constante no arquivo [users.json](./users.json).
 * Existem duas fontes de consulta de dados de usuários: o arquivo [users.json](./users.json), que foi adicionado na raiz do projeto para armazenar dados de usuários, e o localStorage, que armazena informações de usuários cadastrados. 
 * A funcionalidade de cadastro foi implementada nesse projeto. O cadastro armazena informações do usuário cadastrado no localStorage (exemplo: "usuario@email.com":"senha123"). A linha código abaixo consta no arquivo [createAccount.js](./scripts/createAccount.js) e mostra como a funcionalidade de cadastro armazena a senha e o e-mail do usuário cadastrado no localStorage:
 ```js
