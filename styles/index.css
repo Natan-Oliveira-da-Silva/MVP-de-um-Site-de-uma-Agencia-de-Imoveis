@@ -162,3 +162,202 @@ body {
 .form{
   background-color: var(--white-200);
 }
+@media screen and (min-width:3500px){
+  /* de 3500 para cima */
+  form{
+    background-color: green;
+  }
+  .company-name {
+    font-size: 45px;
+  }
+  .form-title{
+    font-size: 70px;
+    padding-bottom: 1.5em;
+
+  }
+  .button-and-inputs {
+    font-size: 60px;
+    padding: 0.5em 1em;
+  }
+  .form-message{
+    font-size: 40px;
+  }
+  .final-text{
+    font-size: 50px;
+  }
+  .image-text{
+    font-size:80px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 2500px) and (max-width: 3499px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: yellow;
+  }
+  .company-name {
+    font-size: 35px;
+  }
+  .form-title{
+    font-size: 50px;
+    padding-bottom: 1em;
+  }
+  .button-and-inputs {
+    font-size: 37px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 25px;
+  }
+  .final-text{
+    font-size: 30px;
+  }
+  .image-text{
+    font-size:55px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 2500px) and (max-width: 3499px) and (max-height:1300px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: gray;
+  }
+  .company-name {
+    font-size: 30px;
+  }
+  .form-title{
+    font-size: 45px;
+    padding-bottom: 1.3em;
+  }
+  .button-and-inputs {
+    font-size: 32px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 22px;
+  }
+  .final-text{
+    font-size: 26px;
+  }
+  .image-text{
+    font-size:50px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 2500px) and (max-width: 3499px) and (max-height:1100px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: purple;
+  }
+  .company-name {
+    font-size: 25px;
+  }
+  .form-title{
+    font-size: 40px;
+    padding-bottom: 0em;
+  }
+  .button-and-inputs {
+    font-size: 28px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 24px;
+  }
+  .final-text{
+    font-size: 22px;
+  }
+  .image-text{
+    font-size:40px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1801px) and (max-width: 2499px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: rgb(20, 20, 20);
+  }
+  .company-name {
+    font-size: 25px;
+  }
+  .form-title{
+    font-size: 40px;
+    padding-bottom: 0.7em;
+  }
+  .button-and-inputs {
+    font-size: 25px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 22px;
+  }
+  .final-text{
+    font-size: 22px;
+  }
+  .image-text{
+    font-size:40px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1800px) and (max-width: 2000px) and (min-height:1050px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: orange;
+  }
+  .company-name {
+    font-size: 25px;
+  }
+  .form-title{
+    font-size: 40px;
+    padding-bottom: 0.7em;
+  }
+  .button-and-inputs {
+    font-size: 28px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 22px;
+  }
+  .final-text{
+    font-size: 22px;
+  }
+  .image-text{
+    font-size:40px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1799px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: pink;
+  }
+  .form-title{
+    padding-bottom: 2em;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1499px){
+  /* entre 3500 e 2500 */
+  .form{
+    background-color: brown;
+  }
+  .company-name {
+    font-size: 18px;
+  }
+  .form-title{
+    font-size: 27px;
+    padding-bottom: 0.4em;
+  }
+  .button-and-inputs {
+    font-size: 18px;
+    padding: 0.7em 1em;
+  }
+  .form-message{
+    font-size: 20px;
+  }
+  .final-text{
+    font-size: 18px;
+  }
+  .image-text{
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
