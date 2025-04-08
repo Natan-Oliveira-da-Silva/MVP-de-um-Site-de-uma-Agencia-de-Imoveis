@@ -80,11 +80,6 @@ body {
   border-radius: 0.4em;
   margin-left: 4vw;
 }
-
-
-
-
-
 .banner {
   background: url("../assets/img/home-page/banner/banner.jpg") no-repeat center;
   background-size: cover;
@@ -178,9 +173,6 @@ body {
   z-index: 1000;
   width: 90vh;
   height: 80vh;
-  /*
-  background-color: rgba(0, 0, 0, 0.5);
-  */
   justify-content: center;
   align-items: center;
 
