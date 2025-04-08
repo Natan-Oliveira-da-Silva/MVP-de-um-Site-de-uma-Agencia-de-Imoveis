@@ -1,6 +1,7 @@
 if (localStorage.getItem("logged") !== "true") window.location.href = "../index.html"
 
 const exitButton = document.getElementById("exit-button");
+const bodyElement = document.getElementById("body");
 const line1 = document.getElementById("line1");
 const line2 = document.getElementById("line2");
 const modal = document.getElementById("modal");
@@ -57,7 +58,7 @@ modalButton.addEventListener('click',() => {
 
 function openModal(id){
     modal.style.display = "flex"
-    
+
     fetch("../data.json")
       .then((response) => response.json())
       .then((response) => {
