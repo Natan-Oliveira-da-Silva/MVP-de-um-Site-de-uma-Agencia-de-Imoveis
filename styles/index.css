@@ -37,7 +37,7 @@ body {
 }
 
 .vertical-line {
-  border: 1px solid var(--white-500);
+  border: 0.1vh solid var(--white-500);
 }
 
 .header {
@@ -72,7 +72,7 @@ body {
   border-radius: 1.56vw;
 }
 .shaded-sections {
-  box-shadow: 0px 4px 7px 0px #00000040;
+  box-shadow: 0px 2vh 3.5vh 0px #00000040;
 }
 .form-content {
   padding: 14% 12% 15.4% 12%;
@@ -92,12 +92,12 @@ body {
   padding-top: 12%;
   margin-left: 5%;
   color: var(--white-400);
-  font-size: 40px;
+  font-size: 4vh;
   font-weight: 400;
 }
 .final-text {
   color: var(--black-1000);
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 400;
   text-align: center;
 }
@@ -105,7 +105,7 @@ body {
   width: 100%;
   border-radius: 50em;
   padding: 1em;
-  font-size: 24px;
+  font-size: 2.2vh;
   font-weight: 500;
   margin-top: 1.3em;
   margin-left: 1.3em;
@@ -130,17 +130,17 @@ body {
 }
 .horizontal-rule {
   border: none;
-  height: 1px;
+  height: 0.2vh;
   background-color: var(--white-500);
 }
 .company-name {
   color: var(--white-100);
-  font-size: 24px;
+  font-size: 2.2vh;
   font-weight: 700;
 }
 .form-message {
   color: var(--red);
-  font-size: 15px;
+  font-size: 1.65vh;
   font-weight: 500;
   margin-top: 1.3em;
 }
@@ -150,20 +150,22 @@ body {
   color: var(--gray);
 }
 .form-title {
-  font-size: 32px;
+  font-size: 3.5vh;
   font-weight: 700;
   color: var(--black-400);
+  margin-bottom: 1.7em;
 }
 .btn:active{
   background-color: transparent;
   color:var(--primary-hover);
-  border:2px solid var(--primary-hover);
+  border:0.4vh solid var(--primary-hover);
 }
 .form{
   background-color: var(--white-200);
 }
+
+/*
 @media screen and (min-width:3500px){
-  /* de 3500 para cima */
   form{
     background-color: green;
   }
@@ -191,7 +193,6 @@ body {
   }
 }
 @media (min-width: 2500px) and (max-width: 3499px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: yellow;
   }
@@ -218,7 +219,6 @@ body {
   }
 }
 @media (min-width: 2500px) and (max-width: 3499px) and (max-height:1300px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: gray;
   }
@@ -245,7 +245,6 @@ body {
   }
 }
 @media (min-width: 2500px) and (max-width: 3499px) and (max-height:1100px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: purple;
   }
@@ -272,7 +271,6 @@ body {
   }
 }
 @media (min-width: 1801px) and (max-width: 2499px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: rgb(20, 20, 20);
   }
@@ -299,7 +297,6 @@ body {
   }
 }
 @media (min-width: 1800px) and (max-width: 2000px) and (min-height:1050px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: orange;
   }
@@ -326,7 +323,6 @@ body {
   }
 }
 @media (min-width: 1500px) and (max-width: 1799px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: pink;
   }
@@ -335,7 +331,6 @@ body {
   }
 }
 @media (min-width: 1300px) and (max-width: 1499px){
-  /* entre 3500 e 2500 */
   .form{
     background-color: brown;
   }
@@ -361,3 +356,4 @@ body {
     font-weight: 500;
   }
 }
+*/
