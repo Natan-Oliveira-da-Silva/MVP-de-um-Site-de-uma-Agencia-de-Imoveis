@@ -62,6 +62,6 @@ function confirmsAuthentication(){
     setTimeout(() => {
         resetMessage()
         localStorage.setItem("logged", "true");
-        window.location.href = "/views/home.html";
+        window.location.href = "./views/home.html";
       }, 1500);
 }
