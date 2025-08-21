@@ -27,7 +27,7 @@ function authenticateData(email,password){
     if(localStorage.getItem(email) === password){
         confirmsAuthentication()
     }else{
-        fetch("../users.json")
+        fetch("https://seu-usuario.github.io/seu-repositorio/users.json")
         .then((response)=> response.json())
         .then((response)=>{
             users=response.users
