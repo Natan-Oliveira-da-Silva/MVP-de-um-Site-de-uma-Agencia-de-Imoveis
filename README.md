@@ -3,8 +3,8 @@ Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de
 
 * Telas de login e cadastro com validações dos dados inseridos pelo usuário.
 <p align="center">
-  <img src="./assets/logo.png" alt="Logo" width="200">
-  <img src="./assets/logo.png" alt="Logo" width="200">
+  <img src="./assets/readme-images/image1.png" alt="Validação no formulário de login" width="200">
+  <img src="./assets/readme-images/image1.png" alt="Validação no formulário de cadastro" width="200">
 </p>
 
 
