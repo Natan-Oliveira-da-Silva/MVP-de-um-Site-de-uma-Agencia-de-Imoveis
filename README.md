@@ -2,10 +2,15 @@
 Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de um MVP (produto mínimo viável) de um site de uma agência de imóveis fictícia. Para sua realização, usei HTML, CSS e JavaScript. O MVP consome as informações dos imóveis e dos usuários de arquivos JSON presentes na raiz do projeto e armazena informações de login e de novos usuários no Local Storage. O MVP dispõe de:
 
 * Telas de login e cadastro com validações dos dados inseridos pelo usuário.
+<p align="center">
+  <img src="./assets/logo.png" alt="Logo" width="200">
+  <img src="./assets/logo.png" alt="Logo" width="200">
+</p>
+
 
 * Página principal (home) que, ao se clicar em um dos imóveis apresentados, exibe um modal com as informações do imóvel selecionado.
 
-* Tela de página em construção, que é exibida quando o usuário clica em alguma funcionalidade ainda não implementada.
+* Tela de página em construção, que é exibida quando o usuário clica em alguma funcionalidade ainda não implementada, como o botão de comprar que aparece no modal.
 
 * Recurso que impede o acesso do usuário às telas de página principal (home) e de página em construção caso o usuário não esteja logado.
 
