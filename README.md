@@ -2,7 +2,9 @@
 
 [Acesse o projeto](https://natan-oliveira-da-silva.github.io/MVP-de-um-Site-de-uma-Agencia-de-Imoveis/)
 
-Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de um MVP (produto mínimo viável) de um site de uma agência de imóveis fictícia. Para sua realização, usei HTML, CSS e JavaScript. O MVP consome as informações dos imóveis e dos usuários de arquivos JSON presentes na raiz do projeto e armazena informações de login e de novos usuários no Local Storage. O MVP dispõe de:
+Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de um MVP (produto mínimo viável) de um site de uma agência de imóveis fictícia. Para sua realização, usei HTML, CSS e JavaScript. O MVP consome as informações dos imóveis e dos usuários de arquivos JSON presentes na raiz do projeto e armazena informações de login e de novos usuários no Local Storage. 
+
+## O que se Encontra no MVP
 
 * Formulários de login e cadastro com validações dos dados inseridos pelo usuário.
 <table align="center">
