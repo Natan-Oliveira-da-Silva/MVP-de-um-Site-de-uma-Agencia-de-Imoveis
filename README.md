@@ -1,18 +1,49 @@
 # MVP de um Site de uma Agência de Imóveis
 Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de um MVP (produto mínimo viável) de um site de uma agência de imóveis fictícia. Para sua realização, usei HTML, CSS e JavaScript. O MVP consome as informações dos imóveis e dos usuários de arquivos JSON presentes na raiz do projeto e armazena informações de login e de novos usuários no Local Storage. O MVP dispõe de:
 
-* Telas de login e cadastro com validações dos dados inseridos pelo usuário.
-<p align="center">
-  <img src="./assets/readme-images/image1.png" alt="Validação no formulário de login" width="200">
-  <img src="./assets/readme-images/image1.png" alt="Validação no formulário de cadastro" width="200">
-</p>
+* Formulários de login e cadastro com validações dos dados inseridos pelo usuário.
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./assets/readme-images/image1.png" alt="Validação no formulário de login" width="300px"><br>
+      <sub>Validação no formulário de login</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/readme-images/image2.png" alt="Validação no formulário de cadastro" width="300px"><br>
+      <sub>Validação no formulário de cadastro</sub>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 
 * Página principal (home) que, ao se clicar em um dos imóveis apresentados, exibe um modal com as informações do imóvel selecionado.
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./assets/readme-images/image4.png" alt="Página principal (home)" width="400px"><br>
+      <sub>Página principal (home)</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/readme-images/image5.png" alt="Página principal (home) com modal aberto" width="400px"><br>
+      <sub>Página principal (home) com modal aberto</sub>
+    </td>
+  </tr>
+</table>
 
-* Tela de página em construção, que é exibida quando o usuário clica em alguma funcionalidade ainda não implementada, como o botão de comprar que aparece no modal.
 
-* Recurso que impede o acesso do usuário às telas de página principal (home) e de página em construção caso o usuário não esteja logado.
+* Tela de página em construção, que é exibida quando o usuário clica em alguma funcionalidade ainda não implementada, como o botão 'Comprar' que aparece no modal ou qualquer um dos itens da seção Nossos Serviços.
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./assets/readme-images/image3.png" alt="Página de funcionalidade ainda não implementada" width="400px"><br>
+      <sub>Página de funcionalidade ainda não implementada</sub>
+    </td>
+  </tr>
+</table>
 
 
 ## Informações Técnicas sobre o Projeto
