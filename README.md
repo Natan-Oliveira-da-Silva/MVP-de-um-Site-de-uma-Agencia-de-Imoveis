@@ -16,7 +16,7 @@ Desafio realizado individualmente durante o estágio na Compass.UOL. Trata-se de
       <sub>Validação no formulário de login</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/natan-oliveira-da-silva/MVP-de-um-Site-de-uma-Agencia-de-Imoveis/main/assets/readme-images/image2.png" alt="Validação no formulário de cadastro" width="300px"><br>
+      <img src="https://raw.githubusercontent.com/Natan-Oliveira-da-Silva/MVP-de-um-Site-de-uma-Agencia-de-Imoveis/main/assets/readme-images/image2.png" alt="Validação no formulário de cadastro" width="300px"><br>
       <sub>Validação no formulário de cadastro</sub>
     </td>
   </tr>
